@@ -1,0 +1,23 @@
+{
+  "name": "codecademyjsmixedmessages",
+  "version": "1.0.0",
+  "description": "## The plan Using this space as a project plan as well: The plan is to create a function that takes 3 themes as an argument, and selects 3 random nouns according to those themes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostb0x/codecademy_js_mixed_messages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostb0x/codecademy_js_mixed_messages/issues"
+  },
+  "homepage": "https://github.com/ghostb0x/codecademy_js_mixed_messages#readme",
+  "dependencies": {
+    "es6-dynamic-template": "^2.0.0"
+  }
+}

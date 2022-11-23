@@ -1,4 +1,4 @@
-entrypoint = "LICENSE"
+entrypoint = "index.js"
 
 hidden = [".config"]
 
