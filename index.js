@@ -6,13 +6,6 @@ const places =['Albequerque, New Mexico', 'Buenos Aires, Argentina', 'Mallorca, 
 
 const foods = ['hard boiled eggs', 'plain, non-fat greek yogurt', 'bangers and mash', '300 mandarin oranges', 'fried plantains', 'an extra large order of McDonald\'s french fries', 'the delicious soft serve ice cream from Milanga & Co', 'a fully stuffed arepa']
 
-function reusable(strings) {
-  return function(... vals) {
-    return strings.map(function(s, i) {
-      return `${s}${vals[i] || ""}`;
-    }).join("");
-  };
-}
 
 const messageFormats = ["I just saw ${person} in ${place} eating ${food}!", "Did you know that at this very moment in ${place}, ${person} is eating ${food}? It's true. Trust me, I'm a doctor.", "In my wildest dreams I would never expect to see ${food} being eaten by ${person} in ${place}, but I can't deny reality."]
 
